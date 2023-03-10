@@ -280,7 +280,7 @@ def wsi_raw_feature():
 # mrna_raw_feature()
 # wsi_raw_feature()
 
-cln_raw_feature().to_csv(os.path.join(path,'clinical','raw_features_cln_regression.csv'),index=False)
+cln_raw_feature().to_csv(os.path.join(path,'clinical','raw_features_cln.csv'),index=False)
 cnv_raw_feature().to_csv(os.path.join(path,'cnv','raw_features_cnv.csv'),index=False)
 dna_raw_feature().to_csv(os.path.join(path,'dna_methylation','raw_features_dna.csv'),index=False)
 mir_raw_feature().to_csv(os.path.join(path,'miRSeq','raw_features_mir.csv'),index=False)
